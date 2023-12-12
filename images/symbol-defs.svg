@@ -1,0 +1,31 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-arrow-left" viewBox="0 0 32 32">
+<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" stroke-width="1.3333" d="M8 10.667v13.333h13.333"></path>
+<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" stroke-width="1.3333" d="M8 24l17.333-17.333"></path>
+</symbol>
+<symbol id="icon-arrow-right" viewBox="0 0 32 32">
+<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" stroke-width="1.3333" d="M19.085 6.667l9.428 9.428M28.513 16.095l-9.428 9.428M28.513 16.095h-24.513"></path>
+</symbol>
+<symbol id="icon-arrow-ugol-right" viewBox="0 0 32 32">
+<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" stroke-width="1.3333" d="M24 10.667v13.333h-13.333"></path>
+<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" stroke-width="1.3333" d="M24 24l-17.333-17.333"></path>
+</symbol>
+<symbol id="icon-check" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.3333" d="M22.154 11.831l-8.339 8.338-3.969-3.969M30.667 16c0 8.1-6.567 14.667-14.667 14.667s-14.667-6.567-14.667-14.667c0-8.1 6.566-14.667 14.667-14.667s14.667 6.566 14.667 14.667z"></path>
+</symbol>
+<symbol id="icon-cross" viewBox="0 0 32 32">
+<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.3333" d="M1.333 1.333l29.333 29.333M30.667 1.333l-29.333 29.333"></path>
+</symbol>
+<symbol id="icon-location" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.3333" d="M15.375 30.667c-3.651-5.477-10.041-12.902-10.041-19.292 0-5.537 4.505-10.041 10.041-10.041s10.041 4.505 10.041 10.041c0 6.39-6.39 13.815-10.041 19.292z"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.3333" d="M15.375 15.939c-2.517 0-4.564-2.048-4.564-4.564s2.048-4.564 4.564-4.564c2.517 0 4.564 2.048 4.564 4.564s-2.048 4.564-4.564 4.564z"></path>
+</symbol>
+<symbol id="icon-menu" viewBox="0 0 32 32">
+<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.3333" d="M0 2.667h32M0 16h32M0 29.333h32"></path>
+</symbol>
+<symbol id="icon-telegram" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.3333" d="M23.582 9.475l-11.932 11.839v9.353l4.534-6.185M25.695 30.667l4.972-29.333-29.333 13.119 24.362 16.214z"></path>
+</symbol>
+</defs>
+</svg>
