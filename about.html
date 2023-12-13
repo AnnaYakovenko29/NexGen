@@ -5,132 +5,227 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NexGen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Mulish:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/about.css" />
   </head>
   <body>
-    <header>
-      <img src="./images/logo.svg" alt="logotype" width="113" height="24" />
-      <nav>
-        <ul>
-          <li>
-            <a href="./index.html">Головна</a>
+   <!--HEADER-->
+
+   <header class="header">
+    <div class="container header-container">
+      <img
+        class="header-logo"
+        src="./images/logo.svg"
+        alt="logotype"
+        width="113"
+        height="24"
+      />
+      <nav class="header-navigation">
+        <ul class="header-list list">
+          <li class="header-item">
+            <a class="header-link link" href="./index.html">Головна</a>
           </li>
-          <li>
-            <a href="./about.html">Про нас</a>
+          <li class="header-item">
+            <a class="header-link active link" href="./about.html">Про нас</a>
           </li>
-          <li>
-            <a href="./servises.html">Послуги</a>
+          <li class="header-item">
+            <a class="header-link link" href="./servises.html">Послуги</a>
           </li>
-          <li>
-            <a href="./team.html">Команда</a>
+          <li class="header-item">
+            <a class="header-link link" href="./team.html">Команда</a>
           </li>
-          <li>
-            <a href="./career.html">Кар’єра</a>
+          <li class="header-item">
+            <a class="header-link link" href="./career.html">Кар’єра</a>
           </li>
-          <li>
-            <a href="./contact.html">Контакти</a>
+          <li class="header-item">
+            <a class="header-link link" href="./contact.html">Контакти</a>
           </li>
         </ul>
       </nav>
-      <button type="">Зв'язатися з нами</button>
-    </header>
+      <button class="header-btn" type="button">Зв'язатися з нами</button>
+    </div>
+  </header>
     <main>
-      <section>
-        <h2>Експерти в галузі аналітики та фінансів</h2>
-        <p>
-          Nexgen спеціалізується на розробці інтелектуальних рішень та стратегій
-          для оптимізації фінансових процесів.
-        </p>
+      
+      <!--ABOUT-SECTION-->
+
+      <section class="about-section">
+        <div class="about-section-container container">
+          <h2 class="about-section-title">Експерти в галузі аналітики та фінансів</h2>
+          <p class="about-section-text">
+            Nexgen спеціалізується на розробці інтелектуальних рішень та стратегій
+            для оптимізації фінансових процесів.
+          </p>
+        </div>
+        </section>
+
+      <!--ABOUT-US-->
+
+        <section class="about-us about">
+          <div class="about-us-container container">
+            <img
+            class="about-us-img"
+            src="./images/banners/about.jpg"
+            alt="люди"
+            width="1600"
+            height="492"
+          />
+          <div class="about-us-wrap-text">
+            <div>
+              <h2 class="about-us-title">Ми - команда експертів</h2>
+              <p class="about-us-text">
+                яка готова надати вам професійну підтримку та забезпечити стратегію
+                фінансового розвитку, Незалежно від вашої галузі чи масштабів.
+              </p>
+            </div>
+            <div class="about-us-wrap">
+              <p class="about-us-text-add">
+                Завдяки нашому глибокому розумінню ринкових тенденцій та передовим
+                аналітичним підходам, ми допомагаємо нашим клієнтам досягти стійкого
+                росту, ефективно управляти капіталом.
+              </p> 
+            </div>
+          </div>
+          </div>
       </section>
-      <section>
-        <img src="" alt="" />
-        <h2>Ми - команда експертів</h2>
-        <p>
-          яка готова надати вам професійну підтримку та забезпечити стратегію
-          фінансового розвитку, Незалежно від вашої галузі чи масштабів.
-        </p>
-        <p>
-          Завдяки нашому глибокому розумінню ринкових тенденцій та передовим
-          аналітичним підходам, ми допомагаємо нашим клієнтам досягти стійкого
-          росту, ефективно управляти капіталом.
-        </p>
+
+            <!--ABOUT-TEAM-->
+
+      <section class="about-team">
+        <div class="about-team-container container">
+          <ul class="about-team-list list">
+            <li class="about-team-item">
+              <img
+              class="spot-icon"
+              src="./images/spot1.svg"
+              alt="цятки"
+              width="60"
+              height="60"
+            />
+              <h3 class="about-team-suptitle">Хто ми</h3>
+              <p class="about-team-text">
+                Ми – команда експертів, що об'єднує в собі глибокі знання в галузі
+                аналітики та фінансів, а також вміння застосовувати ці знання на
+                практиці. Наші фахівці мають різноманітний досвід та розуміють
+                особливості кожного бізнесу.
+              </p>
+            </li>
+            <li class="about-team-item">
+              <img
+              class="spot-icon"
+              src="./images/spot2.svg"
+              alt="цятки"
+              width="60"
+              height="60"
+            />
+              <h3 class="about-team-suptitle">Наша місія</h3>
+              <p class="about-team-text">
+                Місія полягає в тому, щоб бути вашим партнером на роки,
+                впроваджуючи інновації. Ми віримо, що кожне рішення повинно бути
+                обґрунтованим даними, і саме тому ми ставимо аналітику в основу
+                кожного процесу.
+              </p>
+            </li>
+            <li class="about-team-item">
+              <img               
+              class="spot-icon"
+              src="./images/spot3.svg"
+              alt="цятки"
+              width="60"
+              height="60"/>
+              <h3 class="about-team-suptitle">Наш підхід</h3>
+              <p class="about-team-text">
+                Базується на глибокому аналізі та індивідуальному підході до
+                кожного клієнта. Ми ретельно вивчаємо потреби та цілі наших
+                клієнтів, а потім розробляємо стратегії, які дозволять їм досягти
+                найкращих результатів.
+              </p>
+            </li>
+            <li class="about-team-item">
+              <img
+              class="spot-icon"
+              src="./images/spot4.svg"
+              alt="цятки"
+              width="60"
+              height="60"
+            />
+              <h3 class="about-team-suptitle">Наше бачення</h3>
+              <p class="about-team-text">
+                Ми завжди залишаємося на пульсі нових тенденцій та інновацій у
+                сфері аналітики та фінансів. Це дозволяє нам пропонувати сучасні
+                та передові рішення, допомагаючи клієнтам ефективно керувати та
+                досягати стабільного росту.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section>
-        <ul>
-          <li>
-            <img src="" alt="" />
-            <h3>Хто ми</h3>
-            <p>
-              Ми – команда експертів, що об'єднує в собі глибокі знання в галузі
-              аналітики та фінансів, а також вміння застосовувати ці знання на
-              практиці. Наші фахівці мають різноманітний досвід та розуміють
-              особливості кожного бізнесу.
+
+            <!--ABOUT-SERVISES-->
+
+      <section class="about-servises">
+        <div class="about-servises-container container">
+          <div class="about-servises-wrap"> 
+            <h2 class="about-servises-title">Ми маємо клієнтів в різних сферах.</h2>
+            <p class="about-servises-text">
+              пишаємося тим, що наші послуги з бізнес-аналітики надають значущий
+              внесок до успіху різних компаній у різних галузях.
             </p>
-          </li>
-          <li>
-            <img src="" alt="" />
-            <h3>Наша місія</h3>
-            <p>
-              Місія полягає в тому, щоб бути вашим партнером на роки,
-              впроваджуючи інновації. Ми віримо, що кожне рішення повинно бути
-              обґрунтованим даними, і саме тому ми ставимо аналітику в основу
-              кожного процесу.
-            </p>
-          </li>
-          <li>
-            <img src="" alt="" />
-            <h3>Наш підхід</h3>
-            <p>
-              Базується на глибокому аналізі та індивідуальному підході до
-              кожного клієнта. Ми ретельно вивчаємо потреби та цілі наших
-              клієнтів, а потім розробляємо стратегії, які дозволять їм досягти
-              найкращих результатів.
-            </p>
-          </li>
-          <li>
-            <img src="" alt="" />
-            <h3>Наше бачення</h3>
-            <p>
-              Ми завжди залишаємося на пульсі нових тенденцій та інновацій у
-              сфері аналітики та фінансів. Це дозволяє нам пропонувати сучасні
-              та передові рішення, допомагаючи клієнтам ефективно керувати та
-              досягати стабільного росту.
-            </p>
-          </li>
-        </ul>
+            <div class="about-servises-btn-conteiner">
+              <button class="about-servises-btn">Наші послуги</button>
+              <div class="about-servises-icon-background">
+                <svg class="about-servises-icon" width="24" height="24">
+                  <use href="./images/symbol-defs.svg#icon-arrow-ugol-right"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <ul class="about-servises-list list">
+            <li class="about-servises-item">Технології та ІТ</li>
+            <li class="about-servises-item">Відновлювана енергія</li>
+            <li class="about-servises-item">Нерухомість</li>
+            <li class="about-servises-item">Логістика</li>
+            <li class="about-servises-item">Агробізнес</li>
+            <li class="about-servises-item">Інвестиції</li>
+          </ul>
+        </div>
       </section>
-      <section>
-        <h2>Ми маємо клієнтів в різних сферах.</h2>
-        <p>
-          пишаємося тим, що наші послуги з бізнес-аналітики надають значущий
-          внесок до успіху різних компаній у різних галузях.
-        </p>
-        <button>Наші послуги</button>
-        <svg>
-          <use></use>
-        </svg>
-        <ul>
-          <li>Технології та ІТ</li>
-          <li>Відновлювана енергія</li>
-          <li>Нерухомість</li>
-          <li>Логістика</li>
-          <li>Агробізнес</li>
-          <li>Інвестиції</li>
-        </ul>
-      </section>
-      <section>
-        <h2>Маєте запитання або ідеї?</h2>
-        <p>Дізнайтесь про кар'єрні можливості або умови співпраці.</p>
-        <button type="button">Зв'язатися з нами</button>
-        <button type="button">
-          Написати нам
-          <svg>
-            <use></use>
-          </svg>
-        </button>
+
+                  <!--QUESTION-->
+
+      <section class="question">
+        <div class="question-container container">
+          <h2 class="question-title">Маєте запитання або ідеї?</h2>
+          <p class="question-text">Дізнайтесь про кар'єрні можливості або умови співпраці.</p>
+          <div class="question-container-btn">
+            <button  class="question-btn" type="button">Зв'язатися з нами</button>
+            <div class="question-container-btn-message">
+              <button  class="question-btn-message" type="button">
+                Написати нам
+                <svg class="question-icon" width="24" height="24">
+                  <use href="./images/symbol-defs.svg#icon-telegram"></use>
+                </svg>
+            </button>
+          </div>
+          </div>
+        </div>
       </section>
     </main>
-    <footer>
-      <p>Copyright &copy; NexGen - 2023</p>
+
+        <!--FOOTER-->
+
+    <footer class="footer">
+      <p class="footer-text">Copyright &copy; NexGen - 2023</p>
     </footer>
   </body>
 </html>

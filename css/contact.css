@@ -1,0 +1,133 @@
+/*==================CONTACT====================*/
+
+.contact-container {
+    padding-top: 150px;
+    padding-bottom: 374px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    width: 670px;
+}
+
+.contact-title {
+    margin-bottom: 30px;
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 1.36;
+    color: #FFF;
+}
+
+.contact-text {
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.67; 
+    color: #FFF;
+}
+
+.contact-list {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.contact-wrap {
+    width: 670px;
+    height: 340px;
+    padding: 30px;
+    border-radius: 30px;
+    border: 1px solid var(--theme-grey);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.10);
+}
+
+
+/*==================CONNECTION====================*/
+
+.connection {
+    width: 370px;
+    height: 468px;
+    padding: 30px;
+    border-radius: 30px;
+    background: #FFF;
+}
+
+.connection-title {
+    color: var(--theme-dark, #041914);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.67; 
+    margin-bottom: 14px;
+}
+
+.connection-bar-code {
+    width: 240px;
+    height: 240px;
+    background-color: gray;
+    margin: 0 auto;
+    margin-bottom: 14px;
+}
+
+.connection-btn {
+    width: 204px;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px solid var(--theme-grey, #434D48);
+    color: var(--theme-dark, #041914);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;   
+    margin: 0 auto;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-wrap {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.input-text {
+   
+}
+
+.modal-input {
+    width: 280px;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px solid var(--theme-stroke, #D1D4CE);
+    background: #FFF; 
+    padding: 15px 20px;
+    color: var(--theme-grey, #434D48);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2.25; /* 225% */
+}
+
+.modal-input-message {
+    width: 580px;
+    height: 120px;
+    border-radius: 15px;
+    padding: 15px 20px;
+}
+
+.contact-btn {
+    width: 194px;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px solid var(--theme-grey);
+    color: var(--theme-accent, #BDFF00);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5; 
+    background-color: transparent;
+}

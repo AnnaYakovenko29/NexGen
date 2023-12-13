@@ -1,0 +1,120 @@
+/*==================ABOUT-SECTION====================*/
+.career-text {
+    width: 383px;
+    text-indent: 110px;
+}
+
+/*==================ABOUT-US====================*/
+
+.career {
+    padding-top: 0;
+}
+
+.career-title {
+    width: 488px;
+}
+
+.career-text {
+    text-indent: 32px;
+}
+
+.career-text-add {
+    height: 128px;
+}
+
+/*==================ABOUT-US====================*/
+
+.career-advantages {
+    padding-bottom: 100px;
+}
+
+.career-advantages-title {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 1.36; /* 136.364% */
+    color: #FFF;
+}
+
+.career-advantages-list {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.career-advantages-item {
+    width: 570px;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid var(--theme-grey);
+}
+
+.career-advantages-suptitle {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.66;
+    color: var(--theme-accent);
+}
+
+.career-advantages-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2.25; 
+    color: #FFF;
+}
+
+/*==================REASONS====================*/
+
+.reasons {
+    padding-bottom: 100px;
+    /* position: relative; */
+}
+
+.reasons-container {
+    position: relative;
+}
+
+.reasons-title {
+    width: 570px;
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 1.36; 
+    color: #FFF;
+    margin-bottom: 30px;
+    grid-column: span 2; 
+}
+
+.reasons-item {
+    width: 570px;
+    padding: 30px 20px;
+    border-radius: 15px;
+    border: 1px solid var(--theme-grey);
+    background: var(--theme-grey);
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 1.78; 
+    color: #FFF;
+}
+
+.reasons-item:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.reasons-list {
+    /* display: flex;
+    flex-direction: column;
+    gap: 30px; */
+}
+
+.reasons-item:nth-child(n+4) {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.reasons-item:nth-child(5) {
+    position: absolute;
+    margin-top: 284px;
+}

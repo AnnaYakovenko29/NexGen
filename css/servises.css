@@ -1,0 +1,117 @@
+/*==================SERVISES====================*/
+
+
+/* .servises {
+    padding-top: 64px;
+}
+
+.servises-text-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.servises-title {
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 1.36; 
+    color: #FFF;
+} */
+
+.servises-text {
+    width: 418px;
+    text-indent: 197px;
+    /* text-align: justify;
+    text-indent: 197px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2.25; 
+    text-transform: uppercase;
+    color: var(--theme-accent); */
+}
+
+.servises-item {
+    display: flex;
+    justify-content:space-between;
+    padding: 30px 30px 60px;
+    border-radius: 15px;
+    border: 1px solid var(--theme-grey);
+}
+
+.servises-item:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.servises-suptitle-wrap {
+    width: 740px;
+}
+
+.servises-list-add {
+    width: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.servises-suptitle {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.67;
+    color: var(--theme-accent);
+    margin-bottom: 20px;
+}
+
+.servises-text-descrition {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2.25;
+    color: #FFF;
+}
+
+.servises-item-add {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.servises-item-add-text {
+    text-align: right;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 1.78; /* 177.778% */
+    color: #FFF;   
+}
+
+/*==================COMMUNICATION====================*/
+
+
+.communication {
+    padding: 100px 0;
+
+}
+
+.communication-container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.communication-title {
+    width: 970px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 1.36; /* 136.364% */
+    color: var(--theme-accent);
+}
+
+.communication-text {
+    width: 970px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 1.78; /* 177.778% */
+    color: #FFF;
+}

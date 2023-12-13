@@ -1,0 +1,25 @@
+/*==================TEAM====================*/
+
+.team-text {
+    width: 519px;
+    text-indent: 89px;
+}
+
+/*==================ABOUT-US====================*/
+
+.team {
+    padding-top: 0;
+}
+
+.team-title-about {
+    height: 120px;
+}
+
+.team-text-about {
+    width: 590px;
+    text-indent: 128px;
+}
+
+.team-text-add-about {
+    height: 128px;
+}
