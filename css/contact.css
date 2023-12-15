@@ -33,7 +33,7 @@
     margin-bottom: 30px;
 }
 
-.contact-wrap {
+.contact-form {
     width: 670px;
     height: 340px;
     padding: 30px;
@@ -88,46 +88,17 @@
     gap: 10px;
 }
 
-.contact-wrap {
+.contact-form {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
 }
 
-.input-text {
-   
-}
-
-.modal-input {
-    width: 280px;
-    height: 60px;
-    border-radius: 30px;
-    border: 1px solid var(--theme-stroke, #D1D4CE);
-    background: #FFF; 
-    padding: 15px 20px;
-    color: var(--theme-grey, #434D48);
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 2.25; /* 225% */
-}
-
-.modal-input-message {
+.input-message-contact {
     width: 580px;
-    height: 120px;
-    border-radius: 15px;
-    padding: 15px 20px;
 }
 
 .contact-btn {
     width: 194px;
-    height: 60px;
-    border-radius: 30px;
-    border: 1px solid var(--theme-grey);
     color: var(--theme-accent, #BDFF00);
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.5; 
-    background-color: transparent;
 }

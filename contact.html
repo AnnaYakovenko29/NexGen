@@ -56,7 +56,7 @@
             </li>
           </ul>
         </nav>
-        <button class="header-btn" type="button">Зв'язатися з нами</button>
+        <button class="header-btn" type="button" data-modal-open>Зв'язатися з нами</button>
       </div>
     </header>
     <main>
@@ -85,43 +85,34 @@
                 </ul>
             </address>
   
-          <div class="contact-wrap">
-            <label for="user-name">
+          <form class="contact-form">
               <input
-              class="modal-input"
+              class="input-text"
               id="user-name"
               name="user-name"
               type="text"
               placeholder="Ваше ім'я"
+              required
             />
-            </label>
-
-            <label class="input-text" for="user-phone">
               <input
-              class="modal-input"
+              class="input-text"
               id="user-phone"
               name="user-phone"
               type="tel"
               placeholder="Контактний телефон"
+              required
             />
-            </label>
-
-            <label for="user-message">
-              <input
-              class="modal-input modal-input-message"
-              id="user-message"
-              name="user-message"
-              type="text"
-              placeholder="Повідомлення"
-            />
-            </label>
-
-            <button class="contact-btn" type="button">Залишити заявку</button>
-          </div>
+            <textarea 
+            name="user-message" 
+            class="input-text input-message input-message-contact"
+            id="user-text" 
+            placeholder="Повідомлення"></textarea>
+            <button class="modal-btn contact-btn" type="submit">Залишити заявку</button>
+          </form>
           </div>
 
         <div class="connection">
-          <h2 class="connection-title">Зв'яжіться з нами вже зараз.</h2>
+          <p class="connection-title">Зв'яжіться з нами вже зараз.</p>
           <div class="connection-bar-code">
             <img src="" alt="">
             <svg>
