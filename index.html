@@ -22,13 +22,20 @@
 
     <header class="header">
       <div class="container header-container">
-        <img
+        <button class="mobile-menu-open mobile-header-background" type="button">
+          <svg class="mobile-menu-open-icon"  width="24" height="24">
+            <use href="./images/symbol-defs.svg#icon-menu"></use>
+          </svg>
+        </button>
+        <div class="header-logo-container">
+          <img
           class="header-logo"
           src="./images/logo.svg"
           alt="logotype"
           width="113"
           height="24"
         />
+        </div>
         <nav class="header-navigation">
           <ul class="header-list list">
             <li class="header-item">
@@ -51,8 +58,43 @@
             </li>
           </ul>
         </nav>
-        <button class="header-btn" type="button">Зв'язатися з нами</button>
+        <button class="header-btn button" type="button">Зв'язатися з нами</button>
+        <button class="mobile-header-btn  mobile-header-background">
+          <svg class="mobile-menu-open-icon"  width="24" height="24">
+            <use href="./images/symbol-defs.svg#icon-telegram"></use>
+          </svg>
+        </button>
       </div>
+
+      <!-- <div class="mobile-menu is-hidden"> -->
+        <!-- <button class="mobile-menu-close mobile-header-background" type="button">
+          <svg class="mobile-menu-open-icon"  width="24" height="24">
+            <use href="./images/symbol-defs.svg#icon-check"></use>
+          </svg>
+        </button> -->
+
+        <!-- <ul class="mobile-menu-list list">
+          <li class="mobile-menu-item">
+            <a class="header-link active link" href="./index.html">Головна</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link link" href="./about.html">Про нас</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link link" href="./servises.html">Послуги</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link link" href="./team.html">Команда</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link link" href="./career.html">Кар’єра</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link link" href="./contact.html">Контакти</a>
+          </li>
+        </ul>
+        <button class="mobile-menu-btn button" type="button">Зв'язатися з нами</button>
+      </div> -->
     </header>
 
     <main>
@@ -61,8 +103,22 @@
       <section class="hero">
         <div class="hero-container container">
           <h1 class="hero-title">Втілюємо інноваційні рішення</h1>
+          <div class="hero-text-wrap">
+            <p class="hero-text-add title">для бізнес-аналізу та фінансів</p>
+            <img
+            class="hero-decor"
+            src="./images/detail-globe-spot.svg"
+            alt="декоративна планета з цятками"
+            width="878"
+            height="718"
+          />
+            <p class="hero-text description">
+              Допоможемо розбиратися у великому обсязі даних, розробимо
+              ефективні стратегії зростання в невизначеному бізнес-середовищі.
+            </p>
+          </div>
           <div class="hero-btn-wrap">
-            <button class="hero-btn" type="button">Наші послуги</button>
+            <button class="hero-btn button" type="button">Наші послуги</button>
             <div class="hero-background-icon">
               <svg class="hero-icon" width="24" height="24">
                 <use
@@ -71,21 +127,8 @@
               </svg>
             </div>
           </div>
-          <div class="hero-text-wrap">
-            <p class="hero-text">
-              Допоможемо розбиратися у великому обсязі даних, розробимо
-              ефективні стратегії зростання в невизначеному бізнес-середовищі.
-            </p>
-            <p class="hero-text-add">для бізнес-аналізу та фінансів</p>
-          </div>
         </div>
-        <img
-            class="hero-decor"
-            src="./images/detail-globe-spot.svg"
-            alt="декоративна планета з цятками"
-            width="878"
-            height="718"
-          />
+
       </section>
 
       <!--ADVANTAGES-->
@@ -93,10 +136,10 @@
       <section class="advantages">
         <div class="advantages-container container">
           <div class="advantages-text-wrap">
-            <h2 class="advantages-title">
+            <h2 class="advantages-title title">
               Ми працюємо не на вас, ми працюємо з вами!
             </h2>
-            <p class="advantages-text">
+            <p class="advantages-text description">
               створюючи партнерські відносини для досягнення взаємних цілей та
               успіху.
             </p>
@@ -112,7 +155,7 @@
                   width="60"
                   height="60"
                 />
-                <p class="advantages-text-add">
+                <p class="advantages-text-add text-add">
                   Глибокий аналітичний підхід до вирішення проблем.
                 </p>
               </li>
@@ -124,7 +167,7 @@
                   width="60"
                   height="60"
                 />
-                <p class="advantages-text-add">
+                <p class="advantages-text-add text-add">
                   Ефективні стратегії управління фінансами компанії.
                 </p>
               </li>
@@ -136,7 +179,7 @@
                   width="60"
                   height="60"
                 />
-                <p class="advantages-text-add">
+                <p class="advantages-text-add text-add">
                   Індивідуальний підхід до кожного клієнта.
                 </p>
               </li>
@@ -148,7 +191,7 @@
                   width="60"
                   height="60"
                 />
-                <p class="advantages-text-add">Досвідчену команду експертів.</p>
+                <p class="advantages-text-add text-add">Досвідчену команду експертів.</p>
               </li>
             </ul>
           </div>
@@ -159,7 +202,7 @@
 
       <section class="about-us">
         <div class="about-us-container container">
-          <img
+            <img
             class="about-us-img"
             src="./images/banners/homepage.jpg"
             alt="люди"
@@ -168,15 +211,15 @@
           />
           <div class="about-us-wrap-text">
             <div>
-              <h2 class="about-us-title">Ми - команда експертів</h2>
-              <p class="about-us-text">
+              <h2 class="about-us-title title">Ми - команда експертів</h2>
+              <p class="about-us-text description">
                 яка готова надати вам професійну підтримку та забезпечити
                 стратегію фінансового розвитку, Незалежно від вашої галузі чи
                 масштабів.
               </p>
             </div>
             <div class="about-us-wrap">
-              <p class="about-us-text-add">
+              <p class="about-us-text-add text-add">
                 Індивідуальний підхід та комплексні рішення, які допоможуть
                 досягти ваших цілей.
               </p>
@@ -196,58 +239,58 @@
 
       <section class="servises-homepage">
         <div class="container">
-          <h2 class="servises-homepage-title">Наші послуги</h2>
+          <h2 class="servises-homepage-title title">Наші послуги</h2>
           <ul class="servises-homepage-list list">
             <li class="servises-homepage-item">
-              <h3 class="servises-homepage-suptitle">
+              <h3 class="servises-homepage-suptitle suptitle">
                 Управлінський консалтинг
               </h3>
-              <p class="servises-homepage-text">
+              <p class="servises-homepage-text text">
                 Перетворимо бізнес-цілі в успішні стратегії та планові документи
                 та цільові показники ефективності.
               </p>
             </li>
             <li class="servises-homepage-item">
-              <h3 class="servises-homepage-suptitle">
+              <h3 class="servises-homepage-suptitle suptitle">
                 Планування та інвестиційний аналіз
               </h3>
-              <p class="servises-homepage-text">
+              <p class="servises-homepage-text text">
                 NexGen надає комплексний інвестиційний аналіз, оцінюючи
                 життєздатні альтернативи та визначаючи витрати і вигоди.
               </p>
             </li>
             <li class="servises-homepage-item">
-              <h3 class="servises-homepage-suptitle">
+              <h3 class="servises-homepage-suptitle suptitle">
                 Машинне навчання та штучний інтелект
               </h3>
-              <p class="servises-homepage-text">
+              <p class="servises-homepage-text text">
                 Використовуйте можливості штучного інтелекту та машинного
                 навчання для вдосконалення внутрішніх процесів.
               </p>
             </li>
             <li class="servises-homepage-item">
-              <h3 class="servises-homepage-suptitle">
+              <h3 class="servises-homepage-suptitle suptitle">
                 Інформаційні технології
               </h3>
-              <p class="servises-homepage-text">
+              <p class="servises-homepage-text text">
                 Впроваджуємо та підтримуємо будь-яку комп'ютерну інформаційну
                 систему, що підтримує критично важливі операції
               </p>
             </li>
             <li class="servises-homepage-item">
-              <h3 class="servises-homepage-suptitle">
+              <h3 class="servises-homepage-suptitle suptitle">
                 Бізнес-аналіз та управління фінансами
               </h3>
-              <p class="servises-homepage-text">
+              <p class="servises-homepage-text text">
                 Ми маємо великий досвід у наданні повного спектру послуг з
                 управління бізнесом та фінансами.
               </p>
             </li>
             <li class="servises-homepage-item">
-              <h3 class="servises-homepage-suptitle">
+              <h3 class="servises-homepage-suptitle suptitle">
                 Аналітика світового ринку
               </h3>
-              <p class="servises-homepage-text">
+              <p class="servises-homepage-text text">
                 Аналізуємо та надаємо тільки найвигідніші пропозиції на ринку.
               </p>
             </li>
@@ -259,26 +302,26 @@
 
       <section class="cooperation-homepage">
         <div class="cooperation-homepage-container container">
-          <h2 class="cooperation-homepage-title">Етапи співпраці</h2>
-          <p class="cooperation-homepage-text">
+          <h2 class="cooperation-homepage-title title">Етапи співпраці</h2>
+          <p class="cooperation-homepage-text description">
             Наша мета – не лише надавати послуги аналітики та фінансів, але й
             перетворити ці дані на стратегічні можливості для наших клієнтів.
           </p>
           <ul class="cooperation-homepage-list list">
             <li class="cooperation-homepage-item">
               <p class="cooperation-homepage-text-number">крок 1</p>
-              <h3 class="cooperation-homepage-suptitle">Початковий аналіз</h3>
-              <p class="cooperation-homepage-text-infm">
+              <h3 class="cooperation-homepage-suptitle suptitle">Початковий аналіз</h3>
+              <p class="cooperation-homepage-text-infm text">
                 На цьому етапі ми поглиблюємо розуміння вашого бізнесу,
                 конкретних завдань та цілей.
               </p>
             </li>
             <li class="cooperation-homepage-item">
               <p class="cooperation-homepage-text-number">крок 2</p>
-              <h3 class="cooperation-homepage-suptitle">
+              <h3 class="cooperation-homepage-suptitle suptitle">
                 Оптимальна стратегія
               </h3>
-              <p class="cooperation-homepage-text-infm">
+              <p class="cooperation-homepage-text-infm text">
                 За допомогою правильної науки про дані або аналізу даних ви
                 можете зрозуміти зв'язки, щоб швидко знайти оптимальну стратегію
                 для бізнесу.
@@ -286,20 +329,20 @@
             </li>
             <li class="cooperation-homepage-item">
               <p class="cooperation-homepage-text-number">крок 3</p>
-              <h3 class="cooperation-homepage-suptitle">
+              <h3 class="cooperation-homepage-suptitle suptitle">
                 Більше нових клієнтів
               </h3>
-              <p class="cooperation-homepage-text-infm">
+              <p class="cooperation-homepage-text-infm text">
                 З наукою про дані та штучним інтелектом у маркетингу ви
                 неодмінно досягнете своєї мети: більше нових клієнтів.
               </p>
             </li>
             <li class="cooperation-homepage-item">
               <p class="cooperation-homepage-text-number">крок 4</p>
-              <h3 class="cooperation-homepage-suptitle">
+              <h3 class="cooperation-homepage-suptitle suptitle">
                 Безперервне зростання
               </h3>
-              <p class="cooperation-homepage-text-infm">
+              <p class="cooperation-homepage-text-infm text">
                 Кожен продаж створює додаткові цінні дані. Детальний аналіз
                 даних показує, як ви можете крок за кроком оптимізувати свою
                 пропозицію. Це створює стратегію безперервного зростання.
@@ -321,22 +364,22 @@
         <!--MOGAL-->
         <div class="backdrop is-hidden">
           <div class="modal">
-            <button class="modal-close" type="button">
+            <button class="modal-close button" type="button">
               <svg class="modal-close-icon" width="24" height="24">
                 <use href="./images/symbol-defs.svg#icon-cross"></use>
               </svg>
             </button>
-            <p class="modal-title">Зв'яжіться з нами</p>
+            <p class="modal-title suptitle">Зв'яжіться з нами</p>
             <form class="modal-form">
               <input
-              class="input-text"
+              class="input-text text"
               name="user-name"
               type="text"
               placeholder="Ваше ім'я"
               required
             />
               <input
-              class="input-text"
+              class="input-text text"
               name="user-phone"
               type="tel"
               placeholder="Контактний телефон"
@@ -344,22 +387,22 @@
             />
             <textarea 
             name="user-message" 
-            class="input-text input-message"
+            class="input-text input-message text"
             placeholder="Повідомлення"
             ></textarea>
-            <button class="modal-btn" type="submit">Залишити заявку</button>
+            <button class="modal-btn button" type="submit">Залишити заявку</button>
           </form>
           </div>
-          <div class="thanks-form">
-            <button class="modal-close" type="button">
+          <div class="thanks-form is-hidden">
+            <button class="modal-close button" type="button">
               <svg class="modal-close-icon" width="24" height="24">
                 <use href="./images/symbol-defs.svg#icon-cross"></use>
               </svg>
             </button>
             <div  class="thanks-wrap">
-              <p class="thanks-text">Дякуємо!</p>
+              <p class="thanks-text suptitle">Дякуємо!</p>
               <p class="thanks-text-add">Вашу заявку прийнято і вже обробляється нашими фахівцями, будь ласка, залишайтеся на зв'язку!</p>
-              <button class="modal-btn" type="button">Зрозуміло</button>
+              <button class="modal-btn button" type="button">Зрозуміло</button>
             </div>
           </div>
         </div>

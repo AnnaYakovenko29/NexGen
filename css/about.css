@@ -12,9 +12,6 @@
 
 .about-section-title {
     width: 570px;
-    font-size: 44px;
-    font-weight: 300;
-    line-height: 1.37;
     color: #FFF;
 }
 
@@ -22,10 +19,6 @@
     width: 344px;
     text-align: justify;
     text-indent: 15px;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 2.25;
-    text-transform: uppercase;
     color: var(--theme-accent);
 }
 
@@ -51,17 +44,11 @@
 
 .about-team-suptitle {
     width: 250px;
-    font-size: 24px;
-    font-weight: 300;
-    line-height: 1.67; 
     color: var(--theme-accent);
 }
 
 .about-team-text {
     width: 740px;
-    font-size: 18px;
-    font-weight: 200;
-    line-height: 1.78;
     color: #FFF;
 }
 
@@ -96,9 +83,6 @@
     padding: 30px;
     background-color: #02130F;
     border-radius: 15px;
-    font-size: 18px;
-    font-weight: 200;
-    line-height: 1.78;
     color: #FFF;
 }
 
@@ -121,9 +105,6 @@
 .about-servises-title {
     margin-left: 35px;
     margin-bottom: 30px;
-    font-size: 44px;
-    font-weight: 300;
-    line-height: 1.36; /* 136.364% */
     color: #FFF;
 }
 
@@ -131,10 +112,6 @@
     width: 426px;
     text-align: justify;
     text-indent: 113px;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 2.25; /* 225% */
-    text-transform: uppercase;
     color: var(--theme-accent);
     margin-bottom: 30px;
 }
@@ -151,10 +128,6 @@
     border: none;
     background: var(--theme-grey);
     color: #FFF;
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.5; /* 150% */
 }
 
 .about-servises-icon-background {
@@ -213,10 +186,6 @@
     border: 1px solid var(--theme-grey);
     background-color: transparent;
     color: var(--theme-dark);
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.5; 
 }
 
 .question-container-btn-message {
@@ -232,10 +201,6 @@
     border-radius: 30px;
     background: #FFF;
     color: var(--theme-dark);
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.5x; 
     display: flex;
     gap: 10px;
     justify-content: center;

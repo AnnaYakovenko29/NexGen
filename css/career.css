@@ -31,9 +31,6 @@
 .career-advantages-title {
     margin-bottom: 50px;
     text-align: center;
-    font-size: 44px;
-    font-weight: 300;
-    line-height: 1.36; /* 136.364% */
     color: #FFF;
 }
 
@@ -52,17 +49,10 @@
 
 .career-advantages-suptitle {
     margin-bottom: 30px;
-    font-size: 24px;
-    font-weight: 300;
-    line-height: 1.66;
     color: var(--theme-accent);
 }
 
 .career-advantages-description {
-    color: #FFF;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 2.25; 
     color: #FFF;
 }
 
@@ -70,7 +60,6 @@
 
 .reasons {
     padding-bottom: 100px;
-    /* position: relative; */
 }
 
 .reasons-container {
@@ -79,9 +68,6 @@
 
 .reasons-title {
     width: 570px;
-    font-size: 44px;
-    font-weight: 300;
-    line-height: 1.36; 
     color: #FFF;
     margin-bottom: 30px;
     grid-column: span 2; 
@@ -93,20 +79,11 @@
     border-radius: 15px;
     border: 1px solid var(--theme-grey);
     background: var(--theme-grey);
-    font-size: 18px;
-    font-weight: 200;
-    line-height: 1.78; 
     color: #FFF;
 }
 
 .reasons-item:not(:last-child) {
     margin-bottom: 30px;
-}
-
-.reasons-list {
-    /* display: flex;
-    flex-direction: column;
-    gap: 30px; */
 }
 
 .reasons-item:nth-child(n+4) {
