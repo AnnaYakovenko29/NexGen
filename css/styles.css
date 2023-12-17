@@ -286,6 +286,7 @@ body {
 .about-us-background-icon {
     display: block;
     margin-left: auto;
+    margin-top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -598,7 +599,6 @@ body {
     
     .about-us-text-add {
         width: 470px;
-        height: 88px;
         text-align: right;
     }
 
@@ -667,6 +667,8 @@ body {
 
     .header {
         margin-top: 10px;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     .mobile-menu {
@@ -793,22 +795,29 @@ body {
         margin-bottom: 30px;
     }
 
-    .about-us-wrap {
-        margin-left: 0;
-    }
-
     .about-us-wrap-text {
         display: flex;
         justify-content: space-between;
+        gap: 0;
     }
 
     .about-us-text {
         text-indent: 34px;
     }
 
-    .about-us-icon {
-        margin-bottom: auto;
+    .about-us-text-add {
+        margin-bottom: 0;
     }
+    .about-us-wrap {
+        position: relative;
+    }
+
+    .about-us-background-icon {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
 
     /*==============SERVISES-HOMEPAGE================*/
    
