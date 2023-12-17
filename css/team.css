@@ -1,25 +1,42 @@
-/*==================TEAM====================*/
-
-.team-text {
-    width: 519px;
-    text-indent: 89px;
+.about-team {
+    padding-top: 110px;
+    padding-bottom: 30px;
 }
-
-/*==================ABOUT-US====================*/
 
 .team {
-    padding-top: 0;
+    padding-bottom: 60px;
 }
 
-.team-title-about {
-    height: 120px;
+@media screen and (min-width: 768px) {
+    .team-text-about {
+        text-align: left;
+    }
+
 }
 
-.team-text-about {
-    width: 590px;
-    text-indent: 128px;
-}
+@media screen and (min-width: 1200px) {
+    .about-team {
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
 
-.team-text-add-about {
-    height: 128px;
+    .team-text {
+        width: 519px;
+        text-indent: 89px;
+    }
+
+    .team-title-about {
+        font-size: 44px;
+        height: 120px;
+    }
+
+    .team-text-about {
+        width: 590px;
+        text-indent: 128px;
+    }
+
+    .team-text-add-about {
+        height: 128px;
+    }
+    
 }

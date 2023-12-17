@@ -23,6 +23,15 @@
     margin-bottom: 0;
 }
 
+.about-img {
+    margin-bottom: 60px;
+}
+
+.about-wrap-text {
+    margin-top: 0;
+    gap: 20px;
+}
+
 /*==================ABOUT-TEAM====================*/
 
 .about-team-item-wrap {
@@ -261,9 +270,11 @@
     .about-section-container {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     .about-section-title {
+        font-size: 44px;
         margin-bottom: 0;
     }
     

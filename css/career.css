@@ -1,35 +1,17 @@
-/*==================ABOUT-SECTION====================*/
-.career-text {
-    width: 383px;
-    text-indent: 110px;
+.about-career {
+    padding-top: 110px;
+    padding-bottom: 30px;
 }
-
-/*==================ABOUT-US====================*/
 
 .career {
-    padding-top: 0;
+    padding-bottom: 60px;
 }
 
-.career-title {
-    width: 488px;
-}
-
-.career-text {
-    text-indent: 32px;
-}
-
-.career-text-add {
-    height: 128px;
-}
-
-/*==================ABOUT-US====================*/
-
-.career-advantages {
-    padding-bottom: 100px;
-}
+/*==================CAREER-ADVANTAGES====================*/
 
 .career-advantages-title {
-    margin-bottom: 50px;
+    font-size: 30px;
+    margin-bottom: 30px;
     text-align: center;
     color: #FFF;
 }
@@ -38,10 +20,11 @@
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .career-advantages-item {
-    width: 570px;
+    /* width: 300px; */
     padding: 30px;
     border-radius: 15px;
     border: 1px solid var(--theme-grey);
@@ -56,25 +39,32 @@
     color: #FFF;
 }
 
+.career-advantages {
+    padding-bottom: 60px;
+}
+
 /*==================REASONS====================*/
 
 .reasons {
-    padding-bottom: 100px;
-}
-
-.reasons-container {
-    position: relative;
+    padding-bottom: 60px;
 }
 
 .reasons-title {
-    width: 570px;
+    font-size: 30px;
+    text-align: center;
     color: #FFF;
     margin-bottom: 30px;
     grid-column: span 2; 
 }
 
+.reasons-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
 .reasons-item {
-    width: 570px;
     padding: 30px 20px;
     border-radius: 15px;
     border: 1px solid var(--theme-grey);
@@ -82,16 +72,114 @@
     color: #FFF;
 }
 
-.reasons-item:not(:last-child) {
-    margin-bottom: 30px;
+@media screen and (min-width: 768px) {
+
+    .career {
+        padding-bottom: 80px;
+    }
+
+    /*==================CAREER-ADVANTAGES====================*/
+
+    .career-advantages {
+        padding-bottom: 80px;
+    }
+
+    .career-advantages-item {
+        width: 570px;
+    }
+
+    /*==================REASONS====================*/
+
+    .reasons {
+        padding-bottom: 80px;
+    }
+
+    .reasons-item {
+    width: 570px; 
+}
 }
 
-.reasons-item:nth-child(n+4) {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-.reasons-item:nth-child(5) {
-    position: absolute;
-    margin-top: 284px;
+@media screen and (min-width: 1200px) {
+    .about-career {
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+
+/*==================ABOUT-US====================*/
+
+    .career {
+        padding-bottom: 100px;
+    }
+
+    .career-text {
+        width: 383px;
+        text-indent: 32px;
+    }
+    
+    .career-about-text {
+        width: 383px;
+        text-indent: 110px;
+    } 
+    
+    .career-text-add {
+        height: 128px;
+    } 
+
+    .career-text-add {
+        height: 128px;
+    }
+
+/*==================CAREER-ADVANTAGES====================*/
+
+    .career-advantages {
+        padding-bottom: 100px;
+    }
+
+    .career-advantages-title {
+        font-size: 44px;
+        margin-bottom: 50px;
+    }
+
+    .career-advantages-item {
+        width: 570px;
+    }
+
+    /*==================REASONS====================*/
+
+    .reasons {
+        padding-bottom: 100px;
+    }
+
+    .reasons-container {
+        position: relative;
+    }
+
+    .reasons-title {
+        font-size: 44px;
+        width: 570px;
+        text-align: left;
+        /* grid-column: span 2;  */
+    }
+
+    .reasons-list {
+        display: block;
+    }
+
+    .reasons-item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+    
+    .reasons-item:nth-child(n+4) {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+    .reasons-item:nth-child(5) {
+        position: absolute;
+        margin-top: 284px;
+    }
+
+    .reasons-item:nth-child(3) {
+        margin-bottom: 0;
+    }
 }
