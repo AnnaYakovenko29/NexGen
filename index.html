@@ -22,58 +22,84 @@
 
     <header class="header">
       <div class="container header-container">
-          <button class="mobile-menu-open mobile-header-background" type="button">
-            <svg class="mobile-menu-open-icon"  width="24" height="24">
-              <use href="./images/symbol-defs.svg#icon-menu"></use>
-            </svg>
-          </button>
-          <div class="header-logo-container">
-            <img
+        <button
+          class="mobile-menu-open mobile-header-background"
+          type="button"
+          onclick="toggleMenu()"
+        >
+          <svg
+            class="menu-icon"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M0 2H24M0 12H24M0 22H24" stroke="#041914" />
+          </svg>
+        </button>
+        <div class="header-logo-container">
+          <img
             class="header-logo"
             src="./images/logo.svg"
             alt="logotype"
             width="113"
             height="24"
           />
-          </div>
-          <nav class="header-navigation">
-            <ul class="header-list list">
-              <li class="header-item">
-                <a class="header-link active link" href="./index.html">Головна</a>
-              </li>
-              <li class="header-item">
-                <a class="header-link link" href="./about.html">Про нас</a>
-              </li>
-              <li class="header-item">
-                <a class="header-link link" href="./servises.html">Послуги</a>
-              </li>
-              <li class="header-item">
-                <a class="header-link link" href="./team.html">Команда</a>
-              </li>
-              <li class="header-item">
-                <a class="header-link link" href="./career.html">Кар’єра</a>
-              </li>
-              <li class="header-item">
-                <a class="header-link link" href="./contact.html">Контакти</a>
-              </li>
-            </ul>
-          </nav>
-          <button class="header-btn button" type="button">Зв'язатися з нами</button>
-          <button class="mobile-header-btn  mobile-header-background">
-            <svg class="mobile-menu-open-icon"  width="24" height="24">
-              <use href="./images/symbol-defs.svg#icon-telegram"></use>
-            </svg>
-          </button>
+        </div>
+        <nav class="header-navigation">
+          <ul class="header-list list">
+            <li class="header-item">
+              <a class="header-link active link" href="./index.html">Головна</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="./about.html">Про нас</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="./servises.html">Послуги</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="./team.html">Команда</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="./career.html">Кар’єра</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="./contact.html">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header-btn button" type="button" onclick="openContactForm()">
+          Зв'язатися з нами
+        </button>
+        <button class="mobile-header-btn mobile-header-background">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_3502_8)">
+              <path
+                d="M17.6864 7.10593L8.73729 15.9852V23L12.138 18.3611M19.2712 23L23 1L1 10.8396L19.2712 23Z"
+                stroke="#041914"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_3502_8">
+                <rect width="24" height="24" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </button>
       </div>
 
-      <!-- <div class="mobile-menu is-hidden"> -->
-        <!-- <button class="mobile-menu-close mobile-header-background" type="button">
-          <svg class="mobile-menu-open-icon"  width="24" height="24">
-            <use href="./images/symbol-defs.svg#icon-check"></use>
-          </svg>
-        </button> -->
-
-        <!-- <ul class="mobile-menu-list list">
+      <div class="mobile-menu">
+        <ul class="mobile-menu-list list">
           <li class="mobile-menu-item">
             <a class="header-link active link" href="./index.html">Головна</a>
           </li>
@@ -93,8 +119,10 @@
             <a class="mobile-menu-link link" href="./contact.html">Контакти</a>
           </li>
         </ul>
-        <button class="mobile-menu-btn button" type="button">Зв'язатися з нами</button>
-      </div> -->
+        <button class="mobile-menu-btn button" type="button" onclick="openContactForm()">
+          Зв'язатися з нами
+        </button>
+      </div>
     </header>
 
     <main>
@@ -120,14 +148,19 @@
           <div class="hero-btn-wrap">
             <button class="hero-btn button" type="button">Наші послуги</button>
             <div class="hero-background-icon">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M18 8V18H8" stroke="#041914" stroke-miterlimit="10"/>
-                <path d="M18 18L5 5" stroke="#041914" stroke-miterlimit="10"/>
-                </svg>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M18 8V18H8" stroke="#041914" stroke-miterlimit="10" />
+                <path d="M18 18L5 5" stroke="#041914" stroke-miterlimit="10" />
+              </svg>
             </div>
           </div>
         </div>
-
       </section>
 
       <!--ADVANTAGES-->
@@ -190,7 +223,9 @@
                   width="60"
                   height="60"
                 />
-                <p class="advantages-text-add text-add">Досвідчену команду експертів.</p>
+                <p class="advantages-text-add text-add">
+                  Досвідчену команду експертів.
+                </p>
               </li>
             </ul>
           </div>
@@ -201,7 +236,7 @@
 
       <section class="about-us">
         <div class="about-us-container container">
-            <img
+          <img
             class="about-us-img"
             src="./images/banners/homepage.jpg"
             alt="люди"
@@ -223,10 +258,23 @@
                 досягти ваших цілей.
               </p>
               <div class="about-us-background-icon">
-                <svg class="about-us-icon" width="24" height="24">
-                  <use
-                    href="./images/symbol-defs.svg#icon-arrow-ugol-right"
-                  ></use>
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 8V18H16"
+                    stroke="#041914"
+                    stroke-miterlimit="10"
+                  />
+                  <path
+                    d="M6 18L19 5"
+                    stroke="#041914"
+                    stroke-miterlimit="10"
+                  />
                 </svg>
               </div>
             </div>
@@ -309,7 +357,9 @@
           <ul class="cooperation-homepage-list list">
             <li class="cooperation-homepage-item">
               <p class="cooperation-homepage-text-number">крок 1</p>
-              <h3 class="cooperation-homepage-suptitle suptitle">Початковий аналіз</h3>
+              <h3 class="cooperation-homepage-suptitle suptitle">
+                Початковий аналіз
+              </h3>
               <p class="cooperation-homepage-text-infm text">
                 На цьому етапі ми поглиблюємо розуміння вашого бізнесу,
                 конкретних завдань та цілей.
@@ -360,51 +410,105 @@
       </div>
     </footer>
 
-        <!--MOGAL-->
-        <div class="backdrop is-hidden">
-          <div class="modal">
-            <button class="modal-close button" type="button">
-              <svg class="modal-close-icon" width="24" height="24">
-                <use href="./images/symbol-defs.svg#icon-cross"></use>
-              </svg>
-            </button>
-            <p class="modal-title suptitle">Зв'яжіться з нами</p>
-            <form class="modal-form">
-              <input
-              class="input-text text"
-              name="user-name"
-              type="text"
-              placeholder="Ваше ім'я"
-              required
-            />
-              <input
-              class="input-text text"
-              name="user-phone"
-              type="tel"
-              placeholder="Контактний телефон"
-              required
-            />
-            <textarea 
-            name="user-message" 
+    <!--MODAL-->
+    <div class="backdrop">
+      <div class="modal" id="contactForm">
+        <button class="modal-close button" type="button" onclick="closeModal('contactForm')">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_3153_3838)">
+            <path d="M1 1L23 23M23 1L1 23" stroke="black"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_3153_3838">
+            <rect width="24" height="24" fill="white"/>
+            </clipPath>
+            </defs>
+            </svg>
+        </button>
+        <p class="modal-title suptitle">Зв'яжіться з нами</p>
+        <form class="modal-form" onsubmit="openThankYouModal(); clearForm(); return false;">
+          <input
+            class="input-text text"
+            name="user-name"
+            type="text"
+            placeholder="Ваше ім'я"
+            required
+          />
+          <input
+            class="input-text text"
+            name="user-phone"
+            type="tel"
+            placeholder="Контактний телефон"
+            required
+          />
+          <textarea
+            name="user-message"
             class="input-text input-message text"
             placeholder="Повідомлення"
-            ></textarea>
-            <button class="modal-btn button" type="submit">Залишити заявку</button>
-          </form>
-          </div>
-          <div class="thanks-form is-hidden">
-            <button class="modal-close button" type="button">
-              <svg class="modal-close-icon" width="24" height="24">
-                <use href="./images/symbol-defs.svg#icon-cross"></use>
-              </svg>
-            </button>
-            <div  class="thanks-wrap">
-              <p class="thanks-text suptitle">Дякуємо!</p>
-              <p class="thanks-text-add">Вашу заявку прийнято і вже обробляється нашими фахівцями, будь ласка, залишайтеся на зв'язку!</p>
-              <button class="modal-btn button" type="button">Зрозуміло</button>
-            </div>
-          </div>
+          ></textarea>
+          <button class="modal-btn button" type="submit" >
+            Залишити заявку
+          </button>
+        </form>
+      </div>
+
+      <div class="thanks-form" id="thankYouModal">
+        <button class="modal-close button" type="button" onclick="closeModal('thankYouModal')">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_3153_3838)">
+            <path d="M1 1L23 23M23 1L1 23" stroke="black"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_3153_3838">
+            <rect width="24" height="24" fill="white"/>
+            </clipPath>
+            </defs>
+            </svg>
+        </button>
+        <div class="thanks-wrap">
+          <p class="thanks-text suptitle">Дякуємо!</p>
+          <p class="thanks-text-add">
+            Вашу заявку прийнято і вже обробляється нашими фахівцями, будь
+            ласка, залишайтеся на зв'язку!
+          </p>
+          <button class="modal-btn button" type="button" onclick="closeModal('thankYouModal')">Зрозуміло</button>
         </div>
-        <script src="./js/modal.js"></script>
+      </div>
+    </div>
+    <!-- <script>
+      function openContactForm() {
+          // Закриття мобільного меню
+          document.querySelector('.mobile-menu').style.display = 'none';
+          // Відкриття модального вікна
+          document.getElementById("contactForm").style.display = "block";
+      }
+  
+      function openThankYouModal() {
+          document.getElementById("contactForm").style.display = "none";
+          document.getElementById("thankYouModal").style.display = "block";
+      }
+  
+      function closeModal(modalId) {
+          document.getElementById(modalId).style.display = "none";
+      }
+  
+      function clearForm() {
+          // Очищення значень полів форми
+          var form = document.querySelector('.modal-form');
+          form.reset();
+      }
+  </script> -->
+  
+    <script>
+      function toggleMenu() {
+        var menu = document.querySelector(".mobile-menu");
+        var button = document.querySelector(".mobile-menu-open");
+
+        menu.classList.toggle("visible");
+        button.innerHTML = menu.classList.contains("visible")
+          ? '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_3502_772)"><path d="M1 1L23 23M23 1L1 23" stroke="#041914"/></g><defs><clipPath id="clip0_3502_772"><rect width="24" height="24" fill="white"/></clipPath></defs></svg>'
+          : '<svg class="menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 2H24M0 12H24M0 22H24" stroke="#041914" /></svg>';
+      }
+    </script>
   </body>
 </html>
