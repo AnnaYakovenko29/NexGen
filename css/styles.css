@@ -76,6 +76,10 @@ body {
     font-size: 16px;
     font-weight: 300;
     line-height: 1.5;
+    max-width: 100%;
+    height: auto;
+    padding: 18px 30px;
+    border-radius: 30px;
 }
 
 .hero-btn-wrap {
@@ -116,13 +120,11 @@ body {
     .container {
         width: 720px;
     }
-
 }
 
 @media screen and (min-width: 1200px) {
     .container {
-        width: 100%;
-        max-width: 1170px;
+        width: 1170px;
     }
     }
 
@@ -132,18 +134,17 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 15px 0;
 }
 
 .header {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    width: 360px;
     border-radius: 15px;
     background: rgba(2, 19, 15, 0.80);
     backdrop-filter: blur(2.5px);
     position: fixed;
-    display: block;
-    margin: 0 auto;
-    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 1000;
 }
 
@@ -179,22 +180,27 @@ body {
     margin: 0 auto;
 }
 
+.hero-decor-des {
+    display: none;
+}
+
 .hero-text {
     color: var(--Theme-accent, #BDFF00);
     margin-bottom: 20px;
 }
 
 .hero-btn {
-    width: 165px;
-    height: 60px;
     color:#FFF;
-    border-radius: 30px;
     border: transparent;
     background-color: var(--theme-grey);
 }
 
 .hero-btn-wrap {
     margin-bottom: 0;
+}
+
+.hero-background-icon-svg {
+    stroke: var(--theme-dark);
 }
 
 /*==================ADVANTAGES====================*/
@@ -239,6 +245,19 @@ body {
     border-radius: 15px;
     background: #02130F;
     color: #FFF;
+}
+
+.advantages-item:nth-child(3){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    color: var(--Theme-grey, #434D48);
+    text-transform: uppercase;
+    background-color: transparent;
+    order: -1;
+    padding: 0;
 }
 
 /*==================ABOUT-HOMEPAGE====================*/
@@ -298,7 +317,8 @@ body {
 }
 
 .about-us-icon {
-    fill: var(--theme-dark);
+    stroke: var(--theme-dark);
+    fill: none;
 }
 
 /*==============SERVISES-HOMEPAGE================*/
@@ -352,8 +372,9 @@ body {
 }
 
 .servises-homepage-item:hover {
-    border: none;
+    border-color: var(--theme-accent);
     background: var(--theme-accent);
+
 }
 
 .servises-homepage-suptitle {
@@ -457,10 +478,6 @@ body {
         padding: 0;
     }
 
-    .header-container {
-        padding: 15px 30px;
-    }
-
     .mobile-menu {
         display: none;
         width: 360px;
@@ -498,10 +515,7 @@ body {
     }
     
     .mobile-menu-btn {
-        width: 300px;
-        height: 60px;
         margin: 17px 30px 60px 30px;
-        border-radius: 30px;
         border: 1px solid var(--Theme-grey, #434D48);
         color:#BDFF00;
         background-color: transparent;
@@ -511,13 +525,14 @@ body {
     }
 }
 
-
-
 @media screen and (min-width: 480px) {
 
 }
 
 @media screen and (min-width: 768px) {
+    .header {
+        width: 768px;
+    }
 
     .mobile-menu {
         width: 768px;
@@ -556,14 +571,13 @@ body {
         display: flex;
         margin: 0 auto;
         column-gap: 30px;
-        row-gap: 70px;
+        row-gap: 15px;
         flex-wrap: wrap;
         width: 570px;
     }
     
-    .advantages-item {
-        width: 270px;
-        padding: 30px;
+    .advantages-item:nth-child(3) {
+        order: 0;
     }
 
     .advantages-text-dec {
@@ -677,15 +691,14 @@ body {
 @media screen and (min-width: 1200px) {
 
 /*================HEADER====================*/
-    .header-container {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
 
     .header {
-        margin-top: 10px;
-        padding-top: 0;
-        padding-bottom: 0;
+        top: 10px;
+        width: 1170px;
+    }
+
+    .header-container {
+        padding: 0 15px;
     }
 
     .mobile-menu {
@@ -721,7 +734,6 @@ body {
     
     .active {
         color: var(--theme-accent);
-
     }
     
     .header-list {
@@ -731,9 +743,6 @@ body {
     
     .header-btn {
         color: var(--theme-accent);
-        width: 200px;
-        height: 60px;
-        border-radius: 30px;
         border: 1px solid var(--theme-grey);
         background-color: transparent;
         margin: 15px 0;
@@ -744,22 +753,35 @@ body {
     .hero {
         padding-top: 150px;
         padding-bottom: 100px;
-        /* position: relative; */
+
+    }
+
+    .hero-container {
+        display: flex;
+        flex-wrap: wrap;
+        /* position: relative;
+        overflow: visible; */
+
     }
     
     .hero-decor {
-        width: 878px;
-        height: 718px;
+        display: none;
+    }
+
+    .hero-decor-des {
+        display: block;
         position: absolute;
-        top: -640px;
-        right: -207px;
+        top: -60px;
+        /* left: 700px; */
         z-index: -1;
+
     }
 
     .hero-title {
         width: 470px;
         font-size: 70px;
-        margin-bottom: 30px;
+        margin-bottom: 0;
+        order: 1;
     }
 
     .hero-text-wrap {
@@ -770,6 +792,7 @@ body {
         position: absolute;
         bottom: 0;
         position: relative;
+        order: 3;
     }
     
     .hero-text {
@@ -786,7 +809,9 @@ body {
     }
 
     .hero-btn-wrap {
+        width: 100%;
         margin-bottom: 87px;
+        order: 2;
     }
 
     /*==================ADVANTAGES====================*/
@@ -820,12 +845,9 @@ body {
 
     .about-us-img {
         max-width: 1600px;
-        width: 120%;
+        width: 100%;
         height: 492px;
-        margin: 0 auto;
-        position: relative;
-        left: -10%;
-        margin-bottom: 30px;
+        overflow: visible;
     }
 
     .about-us-wrap-text {
@@ -913,7 +935,6 @@ body {
         background: rgba(4, 25, 20, 0.80);
         padding: 20px 30px;
     }
-
 }
 
 
@@ -1001,13 +1022,9 @@ body {
 }
 
 .modal-btn {
-    width: 280px;
-    height: 60px;
-    border-radius: 30px;
     border: 1px solid var(--theme-grey, #434D48);
     color: var(--theme-dark, #041914);
     background-color: transparent;
-    padding: 0;
 }
 
 .thanks-form {
@@ -1042,5 +1059,3 @@ body {
     line-height: 2.25; 
     margin-bottom: 20px;
 }
-
-

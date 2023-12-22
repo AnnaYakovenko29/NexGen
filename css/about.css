@@ -149,9 +149,6 @@
 }
 
 .question-btn {
-    width: 260px;
-    height: 60px;
-    border-radius: 30px;
     border: 1px solid var(--theme-grey);
     background-color: transparent;
     color: var(--theme-dark);
@@ -165,9 +162,6 @@
 }
 
 .question-btn-message {
-    width: 260px;
-    height: 60px;
-    border-radius: 30px;
     background: #FFF;
     color: var(--theme-dark);
     display: flex;
@@ -353,15 +347,6 @@
     .question-container-btn {
         gap: 30px;
     }
-    
-    .question-btn {
-        width: 200px;
-    }
-
-    
-    .question-btn-message {
-        width: 204px;
-    } 
 }
 
 

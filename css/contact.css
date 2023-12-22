@@ -75,10 +75,8 @@
 }
 
 .connection-btn {
-    width: 204px;
-    height: 60px;
-    border-radius: 30px;
     border: 1px solid var(--theme-grey, #434D48);
+    background-color: transparent;
     color: var(--theme-dark, #041914);
     display: flex;
     justify-content: center;
@@ -105,10 +103,6 @@
     .input-message-contact {
         width: 570px;
         height: 120px;
-    }
-    
-    .contact-btn {
-        width: 194px;
     }
 
     /*==================CONNECTION====================*/

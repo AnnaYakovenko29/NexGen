@@ -25,13 +25,31 @@
 
     <header class="header">
       <div class="container header-container">
-        <img
-          class="header-logo"
-          src="./images/logo.svg"
-          alt="logotype"
-          width="113"
-          height="24"
-        />
+        <button
+          class="mobile-menu-open mobile-header-background"
+          type="button"
+          onclick="toggleMenu()"
+        >
+          <svg
+            class="menu-icon"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M0 2H24M0 12H24M0 22H24" stroke="#041914" />
+          </svg>
+        </button>
+        <div class="header-logo-container">
+          <img
+            class="header-logo"
+            src="./images/logo.svg"
+            alt="logotype"
+            width="113"
+            height="24"
+          />
+        </div>
         <nav class="header-navigation">
           <ul class="header-list list">
             <li class="header-item">
@@ -47,16 +65,66 @@
               <a class="header-link link" href="./team.html">Команда</a>
             </li>
             <li class="header-item">
-              <a class="header-link active link" href="./career.html"
-                >Кар’єра</a
-              >
+              <a class="header-link active link" href="./career.html">Кар’єра</a>
             </li>
             <li class="header-item">
               <a class="header-link link" href="./contact.html">Контакти</a>
             </li>
           </ul>
         </nav>
-        <button class="header-btn button" type="button" data-modal-open>Зв'язатися з нами</button>
+        <button class="header-btn button" type="button" onclick="openContactForm()">
+          Зв'язатися з нами
+        </button>
+        <button class="mobile-header-btn mobile-header-background">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_3502_8)">
+              <path
+                d="M17.6864 7.10593L8.73729 15.9852V23L12.138 18.3611M19.2712 23L23 1L1 10.8396L19.2712 23Z"
+                stroke="#041914"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_3502_8">
+                <rect width="24" height="24" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mobile-menu">
+        <ul class="mobile-menu-list list">
+          <li class="mobile-menu-item">
+            <a class="header-link link" href="./index.html">Головна</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link link" href="./about.html">Про нас</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link link" href="./servises.html">Послуги</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link link" href="./team.html">Команда</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link active link" href="./career.html">Кар’єра</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link link" href="./contact.html">Контакти</a>
+          </li>
+        </ul>
+        <button class="mobile-menu-btn button" type="button" onclick="openContactForm()">
+          Зв'язатися з нами
+        </button>
       </div>
     </header>
     <main>
