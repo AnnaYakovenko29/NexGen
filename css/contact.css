@@ -39,12 +39,16 @@
     box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.10);
 }
 
-.input-message-contact {
-    height: 120px;
-}
-
 .contact-btn {
     color: var(--theme-accent, #BDFF00);
+}
+
+.contact-form-input-text {
+    width: 100%;
+}
+
+.input-message-contact {
+    width: 100%;
 }
 
 /*==================CONNECTION====================*/
@@ -100,9 +104,8 @@
         padding: 30px;
     }
 
-    .input-message-contact {
-        width: 570px;
-        height: 120px;
+    .contact-form-input-text {
+        width: calc((100% - 20px)/2);
     }
 
     /*==================CONNECTION====================*/
@@ -130,4 +133,5 @@
     .contact-text {
         font-size: 24px;
     }
+
     }
