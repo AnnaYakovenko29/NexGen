@@ -7,7 +7,6 @@
 
 .servises {
     padding-bottom: 60px;
-
 }
 
 .servises-list {
@@ -34,7 +33,6 @@
 
 .servises-item-add {
     display: flex;
-    align-items: center;
     gap: 10px;
     flex-direction: row-reverse;
     width: 100%;
@@ -78,10 +76,18 @@
     color: #FFF;
 }
 
+.question {
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 @media screen and (min-width: 768px) {
 
 /*==================SERVISES====================*/
+
+    .servises {
+        padding-bottom: 80px;
+    }
 
     .servises-text {
         width: 418px;
@@ -95,6 +101,11 @@
     .communication {
         padding-bottom: 80px;
     }
+
+    .question {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
     
 }
 
@@ -105,6 +116,10 @@
     .about-servises {
         padding-top: 150px;
         padding-bottom: 50px;
+    }
+
+    .servises {
+        padding-bottom: 100px;
     }
 
     .servises-list {

@@ -4,6 +4,7 @@
 }
 
 .career {
+    padding-top: 0;
     padding-bottom: 60px;
 }
 
@@ -72,6 +73,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+    height: fit-content;
 }
 
 .reasons-item {
@@ -80,6 +82,7 @@
     border: 1px solid var(--theme-grey);
     background: var(--theme-grey);
     color: #FFF;
+    height: fit-content;
 }
 
 @media screen and (min-width: 768px) {

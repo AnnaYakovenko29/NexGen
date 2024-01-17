@@ -4,12 +4,25 @@
 }
 
 .team {
+    padding-top: 0;
     padding-bottom: 60px;
+}
+
+.about-wrap-text-team {
+    margin-top: 60px;
 }
 
 @media screen and (min-width: 768px) {
     .team-text-about {
         text-align: left;
+    }
+
+    .about-wrap-text-team {
+        margin-top: 80px;
+    }
+
+    .team {
+        padding-bottom: 80px;
     }
 
 }
@@ -18,6 +31,14 @@
     .about-team {
         padding-top: 150px;
         padding-bottom: 50px;
+    }
+
+    .about-wrap-text-team {
+        margin-top: 100px;
+    }
+
+    .team {
+        padding-bottom: 100px;
     }
 
     .team-text {

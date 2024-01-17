@@ -16,15 +16,12 @@
 }
 
 .about {
+    padding-top: 0;
     padding-bottom: 60px;
 }
 
 .text-add {
     margin-bottom: 0;
-}
-
-.about-img {
-    margin-bottom: 60px;
 }
 
 .about-wrap-text {
